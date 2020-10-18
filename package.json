@@ -1,0 +1,32 @@
+{
+  "name": "paint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-typescript": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^4.3.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^4.5.0",
+    "styles-loader": "^2.0.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open --progress"
+  },
+  "author": "Ann",
+  "license": "ISC"
+}
